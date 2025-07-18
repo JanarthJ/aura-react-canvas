@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Typography, Button, Container } from '@mui/material';
-import { Download, MessageCircle, KeyboardArrowDown } from '@mui/icons-material';
+import { Download, Chat, KeyboardArrowDown } from '@mui/icons-material';
 import { motion } from 'framer-motion';
 import ParticleBackground from '../ParticleBackground';
 
@@ -125,7 +125,7 @@ const HeroSection = () => {
           <MotionButton
             variant="outlined"
             size="large"
-            startIcon={<MessageCircle />}
+            startIcon={<Chat />}
             onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
             sx={{
               borderColor: 'primary.main',
